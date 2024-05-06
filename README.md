@@ -1,13 +1,9 @@
-# Robot Localisation and Navigation
- 
-In this project, Extended Kalman Filter (EKF) was implemented in MATLAB for state estimation of a Micro Aerial Vehicle. The filter fused data from an onboard IMU and a Vicon motion capture system to estimate the vehicle's position, velocity, orientation, and sensor biases. Two versions of the filter were developed, one using Vicon position and orientation measurements, and another using only velocity measurements. The project involved designing process and measurement models, implementing the EKF prediction and update steps, and evaluating the filter's performance on three datasets. The results were summarized in a report, discussing the approach, presenting the estimation results, and comparing them with the ground truth data. This project helped improve my understanding of state estimation techniques, sensor fusion, and proficiency in MATLAB programming for robotics applications.
-
-## Kalman Filter Part 1:
-
 # **ROB-6213 Project 1: Extended Kalman Filter for State Estimation**
 
 ## **Overview**
-This project implements an Extended Kalman Filter (EKF) for state estimation of a Micro Aerial Vehicle (MAV) using Vicon and IMU data. The goal is to estimate the position, velocity, orientation, and sensor biases of the MAV.
+
+In this project, Extended Kalman Filter (EKF) was implemented in MATLAB for state estimation of a Micro Aerial Vehicle. The filter fused data from an onboard IMU and a Vicon motion capture system to estimate the vehicle's position, velocity, orientation, and sensor biases. Two versions of the filter were developed, one using Vicon position and orientation measurements, and another using only velocity measurements. The project involved designing process and measurement models, implementing the EKF prediction and update steps, and evaluating the filter's performance on three datasets. The results were summarized in a report, discussing the approach, presenting the estimation results, and comparing them with the ground truth data. This project helped improve my understanding of state estimation techniques, sensor fusion, and proficiency in MATLAB programming for robotics applications.
+
 
 ## **Project Structure**
 The project is divided into two parts:
